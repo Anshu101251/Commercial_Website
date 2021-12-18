@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Ecommerce.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Ecommerce</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width; initial-scale=1;" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <nav class="navbar navbar-expand-lg navbar-light" id="nav_head">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="background-color:white"></span>
+        </button>
+
+        <div id="nav_name">
+             <%--<a class="navbar-brand" href="#" id="nav_bar">Anshu<span id="navhead"> Singh</span> </a>--%> 
+            <img src="image/mahadev.png" style="height:100px;width:100px;border-radius:100%;"/>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav text-center ml-auto" id="list">
+                <li class="nav-item active" id="list_item">
+                    <a class="nav-link" href="Home.aspx" style="color:white;font-weight:600;font-family:sans-serif">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" id="list_item">
+                    <a class="nav-link" href="about.aspx" style="color:white;font-weight:600;font-family:sans-serif">ABOUT</a>
+                </li>
+                <li class="nav-item" id="list_item">
+                    <a class="nav-link" href="#" style="color:white;font-weight:600;font-family:sans-serif">OUR CUSTOMER</a>
+                </li>
+                <li class="nav-item" id="list_item">
+                    <a class="nav-link" href="#" style="color:white;font-weight:600;font-family:sans-serif">GALLARY</a>
+                </li>
+                <li class="nav-item" id="list_item">
+                    <a class="nav-link" href="#" style="color:white;font-weight:600;font-family:sans-serif">CONTACT US</a>
+                </li>
+            </ul>
+            
+        </div>
+    </nav>
+
+
+
+    
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+ 
+
+
+
+      <!-- Footer -->
+        <footer class="page-footer font-small mdb-color darken-3 pt-4" style="background-color:#00004d">
+
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-6">
+                        <center> <img src="image/mahadev.png" style="height:100px;width:100px;border-radius:100%;"/> </center>
+                        <h5 style="color:white;text-align:center;padding:20px">Footer text 1</h5>
+                        <p style="color:white;text-align:center;padding:0px 20px 20px 20px">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
+                        repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae
+                        harum esse fugiat. Itaque, culpa?</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="embed-responsive embed-responsive-16by9 mb-4">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3" style="color:white;background-color:blue">
+                © 2021 Copyright:
+            <a href="Home.aspx" style="color:white">Mahadev Restaurent</a>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+<!-- Footer -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+   </form>
+</body>
+</html>

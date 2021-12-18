@@ -1,0 +1,5 @@
+G:\new Project\newWebPage\Ecommerce\Ecommerce\bin\Ecommerce.dll
+G:\new Project\newWebPage\Ecommerce\Ecommerce\bin\Ecommerce.pdb
+G:\new Project\newWebPage\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csprojResolveAssemblyReference.cache
+G:\new Project\newWebPage\Ecommerce\Ecommerce\obj\Debug\Ecommerce.dll
+G:\new Project\newWebPage\Ecommerce\Ecommerce\obj\Debug\Ecommerce.pdb
